@@ -19,7 +19,7 @@ def get_book_text(filepath):
         sorted_chars = sort_chars(chars_count)
 
         for letter, count in sorted_chars.items():
-            print(f"{letter}: {count}")
+            print(f"{letter.upper()}: {count}")
         print("------------------------ END ----------------------------")
 
 def main():
