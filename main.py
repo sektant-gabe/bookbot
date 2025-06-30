@@ -1,7 +1,6 @@
 from stats import get_word_count, get_chars_count, sort_chars
 from sys import argv, exit
 
-
 if len(argv) != 2:
     print("Usage: python3 main.py <path_to_book>")
     exit(1)
@@ -26,4 +25,6 @@ def main():
     print("====================== BOOKBOT ==========================")
     get_book_text(argv[1])
     return
+
 main()
+
